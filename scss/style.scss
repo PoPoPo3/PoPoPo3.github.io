@@ -124,13 +124,13 @@
     }
 }
 
-// Servises
+// Услуги
 .services {
     &__title {
+        width: 344px;
         margin: 0 auto;
         margin-bottom: 20px;
         margin-top: 130px;
-        width: 344px;
         height: 85px;
         left: 548px;
         top: 18px;
@@ -213,7 +213,7 @@
     }
 }
 
-// Услуги
+// Услуги подменю
 .price li {
     list-style: none;
     position: relative;
@@ -276,9 +276,20 @@
     top: 12px;
     width: 0;
     height: 0;
-    border-top: 10px solid #fff;
-    border-right: 10px solid transparent;
-    border-left: 10px solid transparent;
+    border-top: 20px solid #000;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    z-index: 2;
+}
+
+.menu__arrow-1 {
+    right: 70px;
+    top: 120px;
+}
+
+.menu__arrow-2 {
+    left: 40px;
+    top: 116px;
 }
 
 .arrow.active {
