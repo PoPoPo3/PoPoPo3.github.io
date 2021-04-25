@@ -1,246 +1,263 @@
-            @media (max-width:850px) {
-                .container {
-                    width: 100%;
-                    max-width: 800px;
-                }
-                .header__inner {
-                    // max-width: 100%;
-                    // max-width: 800px;
-                }
-                .header__content-img {
-                    display: none;
-                }
-                .header__about {
-                    display: flex;
-                    align-items: center;
-                    padding: 0px 0px 0px 0px;
-                    flex-direction: column;
-                }
-                .menu__list-item+.menu__list-item {
-                    padding-left: 30px;
-                }
-                .logo {
-                    &__img {
-                        padding: 0px 44px;
-                    }
-                }
-                .header__about-btn {
-                    max-width: 100%;
-                }
-                .services__content {
-                    // max-width: 800px;
-                }
-                .services__title {
-                    width: 35%;
-                }
-                .services__item-img-1,
-                .services__item-img-2,
-                .services__item-img-3,
-                .services__item-img-4 {
-                    max-width: 27%;
-                }
-                .sub-price__list-2,
-                .sub-price__list-4 {
-                    margin: 0px 0px 50px 280px;
-                }
-                .sub-price__list-1,
-                .sub-price__list-3 {
-                    position: relative;
-                    top: 0;
-                }
-                .sub-price__list-2,
-                .sub-price__list-4 {
-                    position: relative;
-                    top: 25px;
-                }
-                #overflow {
-                    height: 275px;
-                }
-                .vacancies__info {
-                    width: 50%;
-                    right: 70px;
-                }
-                .vacancies__info-text {
-                    width: 77%;
-                    font-size: 225%;
-                    line-height: 91%;
-                }
-                .vacancies__star {
-                    right: -33px;
-                }
-                .vacancies__line {
-                    left: -70px;
-                }
-                .contacts__title {
-                    font-size: 28px;
-                }
-            }
-            
-            @media (max-width: 767px) {
-                .services__item-1,
-                .services__item-2,
-                .services__item-3,
-                .services__item-4 {
-                    width: 100%;
-                }
-                .services__item-text-1,
-                .services__item-text-2,
-                .services__item-text-3,
-                .services__item-text-4 {
-                    width: 50%;
-                }
-                .container {
-                    width: 100%;
-                    max-width: 600px;
-                }
-                .menu {
-                    display: none;
-                }
-                .logo {
-                    margin-right: auto;
-                    &__img {
-                        padding: 0px 25px;
-                    }
-                    .header__title {
-                        flex-wrap: nowrap;
-                    }
-                }
-                .wrapper {
-                    padding: 15px;
-                }
-                .price__list {
-                    display: block;
-                }
-                .price__list>li {
-                    margin: 0px 15px 10px 0px;
-                }
-                .sub-price__list-1,
-                .sub-price__list-3 {
-                    position: relative;
-                    top: 0;
-                }
-                .sub-price__list-2,
-                .sub-price__list-4 {
-                    position: relative;
-                    top: 25px;
-                    left: 50px;
-                }
-                .services__title {
-                    width: 45%;
-                }
-                .vacancies__info-text {
-                    width: 77%;
-                    font-size: 200%;
-                    line-height: 93%;
-                }
-                .vacancies__info {
-                    width: 50%;
-                    right: 25%;
-                }
-                .vacancies__star {
-                    right: 28%;
-                }
-                .vacancies__line {
-                    left: -69%;
-                }
-            }
-            
-            @media (max-width: 577px) {
-                .container {
-                    width: 100%;
-                    max-width: 400px;
-                }
-                .header__title {
-                    font-size: 64px;
-                    margin-top: 24px;
-                    line-height: 65px;
-                }
-                .services__title-text {
-                    font-size: 40px;
-                }
-                .services__title {
-                    width: 75%;
-                }
-                .works__title {
-                    width: 60%;
-                }
-                .sub-price__list-1,
-                .sub-price__list-3 {
-                    position: relative;
-                    top: 10px;
-                    left: -90px;
-                }
-                .sub-price__list-2,
-                .sub-price__list-4 {
-                    position: relative;
-                    top: 25px;
-                    left: -90px;
-                }
-                .vacancies__info-text {
-                    width: 67%;
-                    font-size: 133%;
-                    line-height: 108%;
-                }
-            }
-            
-            @media (max-width: 510px) {
-                .header__title {
-                    // font-size: 69px;
-                }
-            }
-            
-            @media (max-width: 480px) {
-                .header__about-tel {
-                    font-size: 42px;
-                }
-                .header__about-name {
-                    text-align: center;
-                }
-                .services__item-text-1 {
-                    font-size: 23px;
-                    padding: 15px 0px 0px 0px;
-                    height: 60px;
-                }
-            }
-            
-            @media (max-width: 350px) {
-                .header__title {
-                    line-height: 47px;
-                    // font-size: 46px;
-                }
-                .header__about-name {
-                    margin-top: 10px;
-                    font-size: 33px;
-                    line-height: 43px;
-                    font-weight: 500;
-                }
-                .header__about-tel {
-                    font-size: 33px;
-                }
-                .sub-price__list-2 {
-                    left: -300px;
-                }
-                .sub-price__list-1,
-                .sub-price__list-3 {
-                    top: 5px;
-                    left: -33px;
-                }
-                .vacancies__info-text {
-                    width: 61%;
-                    font-size: 101%;
-                    line-height: 108%;
-                }
-                .vacancies__info {
-                    width: 72%;
-                    right: -8%;
-                    max-height: 300px;
-                }
-                .vacancies__line {
-                    height: 470px;
-                }
-                .contacts__title {
-                    height: 60px;
-                    padding-top: 2px;
-                    font-size: 21px;
-                }
-            }
+@media (min-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container {
+        width: 100%;
+        max-width: 800px;
+    }
+    .header__inner {
+        // max-width: 100%;
+        // max-width: 800px;
+    }
+    .header__content-img {
+        display: none;
+    }
+    .header__about {
+        display: flex;
+        align-items: center;
+        padding: 0px 0px 0px 0px;
+        flex-direction: column;
+    }
+    .menu__list-item+.menu__list-item {
+        padding-left: 30px;
+    }
+    .logo {
+        &__img {
+            padding: 0px 44px;
+        }
+    }
+    .header__about-btn {
+        max-width: 100%;
+    }
+    .services__content {
+        // max-width: 800px;
+    }
+    .services__title {
+        width: 35%;
+    }
+    .services__item-img-1,
+    .services__item-img-2,
+    .services__item-img-3,
+    .services__item-img-4 {
+        max-width: 27%;
+    }
+    .sub-price__list-2,
+    .sub-price__list-4 {
+        margin: 0px 0px 50px 280px;
+    }
+    .sub-price__list-1,
+    .sub-price__list-3 {
+        position: relative;
+        top: 0;
+    }
+    .sub-price__list-2,
+    .sub-price__list-4 {
+        position: relative;
+        top: 25px;
+    }
+    #overflow {
+        height: 275px;
+    }
+    .vacancies__info {
+        width: 50%;
+        right: 70px;
+    }
+    .vacancies__info-text {
+        width: 77%;
+        font-size: 225%;
+        line-height: 91%;
+    }
+    .vacancies__star {
+        right: -33px;
+    }
+    .vacancies__line {
+        left: -70px;
+    }
+    .contacts__title {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .services__item-1,
+    .services__item-2,
+    .services__item-3,
+    .services__item-4 {
+        width: 100%;
+    }
+    .services__item-text-1,
+    .services__item-text-2,
+    .services__item-text-3,
+    .services__item-text-4 {
+        width: 50%;
+    }
+    .container {
+        width: 100%;
+        max-width: 600px;
+    }
+    .menu {
+        display: none;
+    }
+    .logo {
+        margin-right: auto;
+        &__img {
+            padding: 0px 25px;
+        }
+        .header__title {
+            flex-wrap: nowrap;
+        }
+    }
+    .wrapper {
+        padding: 15px;
+    }
+    .price__list {
+        display: block;
+    }
+    .price__list>li {
+        margin: 0px 15px 10px 0px;
+    }
+    .sub-price__list-1,
+    .sub-price__list-3 {
+        position: relative;
+        top: 0;
+    }
+    .sub-price__list-2,
+    .sub-price__list-4 {
+        position: relative;
+        top: 25px;
+        left: 50px;
+    }
+    .services__title {
+        width: 45%;
+    }
+    .vacancies__info-text {
+        width: 77%;
+        font-size: 200%;
+        line-height: 93%;
+    }
+    .vacancies__info {
+        width: 50%;
+        right: 25%;
+    }
+    .vacancies__star {
+        right: 28%;
+    }
+    .vacancies__line {
+        left: -69%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .container {
+        width: 100%;
+        max-width: 400px;
+    }
+    .header__title {
+        font-size: 64px;
+        margin-top: 24px;
+        line-height: 65px;
+    }
+    .services__title-text {
+        font-size: 40px;
+    }
+    .services__title {
+        width: 75%;
+    }
+    .works__title {
+        width: 60%;
+    }
+    .sub-price__list-1,
+    .sub-price__list-3 {
+        position: relative;
+        top: 10px;
+        left: -90px;
+    }
+    .sub-price__list-2,
+    .sub-price__list-4 {
+        position: relative;
+        top: 25px;
+        left: -90px;
+    }
+    .vacancies__info-text {
+        width: 67%;
+        font-size: 133%;
+        line-height: 108%;
+    }
+}
+
+@media (max-width: 510px) {
+    .header__title {
+        // font-size: 69px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header__about-tel {
+        font-size: 42px;
+    }
+    .header__about-name {
+        text-align: center;
+    }
+    .services__item-text-1 {
+        font-size: 23px;
+        padding: 15px 0px 0px 0px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 350px) {
+    .header__title {
+        line-height: 47px;
+        // font-size: 46px;
+    }
+    .header__about-name {
+        margin-top: 10px;
+        font-size: 33px;
+        line-height: 43px;
+        font-weight: 500;
+    }
+    .header__about-tel {
+        font-size: 33px;
+    }
+    .sub-price__list-2 {
+        left: -300px;
+    }
+    .sub-price__list-1,
+    .sub-price__list-3 {
+        top: 5px;
+        left: -33px;
+    }
+    .vacancies__info-text {
+        width: 61%;
+        font-size: 101%;
+        line-height: 108%;
+    }
+    .vacancies__info {
+        width: 72%;
+        right: -8%;
+        max-height: 300px;
+    }
+    .vacancies__line {
+        height: 470px;
+    }
+    .contacts__title {
+        height: 60px;
+        padding-top: 2px;
+        font-size: 21px;
+    }
+}
+
+//             // Экстрамалые девайсы («портретные телефоны», < 576px)
+// @media (max-width: 575.98px) { ... }
+// // Малые девайсы («ландшафтные», >= 575px)
+// @media (min-width: 576px) and (max-width: 767.98px) { ... }
+// // Средние девайсы («таблетки», >= 768px) 
+// @media (min-width: 768px) and (max-width: 991.98px) { ... }
+// // Большие девайсы (большие десктопы, >= 992px)
+// @media (min-width: 992px) and (max-width: 1199.98px) { ... }
+// // Большие девайсы (большие десктопы, >= 1200px)
+// @media (min-width: 1200px) { ... }
